@@ -1,0 +1,109 @@
+﻿@page
+@model WebApplication_Dec2022.Pages.Pages_registration
+@using Microsoft.IdentityModel.Tokens;
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/panel-heading.css" asp-append-version="true" />
+</head>
+
+<body>
+        <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div id="main-menu" class="collapse navbar-collapse">
+            </div>
+        </div>
+    </div>
+    <footer id="footer" class="container-center gap bottom-gap" role="contentinfo">
+        <div class="container content" role="main">
+            <div class="zone zone-content">
+                <div class="row double-gap bottom-gap">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h2 class="panel-title">Registration</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <form method="post">
+        <p>
+            <label>Name:</label><br />
+            <input type="text" name="username" />
+        </p>
+
+        <p>
+            <label>Surname:</label><br />
+            <input type="text" name="usersurname" />
+        </p>
+
+        <p>
+            <label>Nickname:</label><br />
+            <input type="text" name="usernickname" />
+        </p>
+
+        <p>
+            <label>Targets:</label><br />
+            <input type="text" name="usertargets" />
+        </p>
+
+        <p>
+            <label>Date of birth:</label><br />
+            <input type="text" name="dateofbirth" />
+        </p>
+
+        <p>
+            <label>Sex:</label><br />
+            <input type="text" name="usersex" />
+        </p>
+
+        <p>
+            <label>Email:</label><br />
+            <input type="email" name="useremail" />
+        </p>
+
+        <p>
+            <label>Login:</label><br />
+            <input type="text" name="login" />
+        </p>
+
+        <p>
+            <label>Password:</label><br />
+            <input type="password" name="password" />
+        </p>
+
+        <p>
+            <label>Confirm the password:</label><br />
+            <input type="password" name="confirmpassword" />
+        </p>
+
+
+        <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+                <div class="checkbox">
+                    <label>
+                        <input id="accepterms" name="acceptterms" type="checkbox" value="true" /><input name="acceptterms" type="hidden" value="false" /> I am accept all terms and agrees 
+                        <br />
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            <div class="col-sm-offset-3 col-sm-9">
+                <br />
+                <button class="btn btn-primary" type="submit" name="button">Registration</button>
+            </div>
+        <p />
+
+    </form>
+</body>
