@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iLm9O0qMIO/PPL11EyNoG2R7rNzDmU5+UXjt6yGEcQZI5pYdqLpCuT3wg68H5w39ydfmbNCR9VftziE4pvkmRw==",
+  "dgSpecHash": "BeWkH0e/JhlWPADGezZ86c9eoUU/yZDVvLs68Xca6caezCjw4FRj6cDWal0+0KX8+Aw+02Gx8QzjYaCv2YTaKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
+  "projectFilePath": "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vaclav\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Vaclav\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

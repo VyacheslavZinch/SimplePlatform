@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj": {}
+    "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj": {
+    "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
+        "projectUniqueName": "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
         "projectName": "SimplePlatform",
-        "projectPath": "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
+        "projectPath": "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\SimplePlatform.csproj",
         "packagesPath": "C:\\Users\\Vaclav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vaclav\\Desktop\\Web\\SimplePlatform\\SimplePlatform\\obj\\",
+        "outputPath": "C:\\Users\\Vaclav\\Documents\\GitHub\\SimplePlatform\\SimplePlatform\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Vaclav\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
